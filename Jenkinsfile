@@ -12,7 +12,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 echo 'Running unit tests...'
-                sh 'node app.js'
+                sh 'node App.js'
             }
         }
 
